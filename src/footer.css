@@ -1,0 +1,17 @@
+@import 'index.css';
+.Footer {
+	padding: 5px 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	max-height: 8vh;
+	text-align: center;
+	/* transform: translateX(-50%); */
+	margin: 5vh auto 0 auto;
+	background-color: var(--main-app-color);
+}
+.Footer h1 {
+	align-self: center;
+	width: auto;
+}

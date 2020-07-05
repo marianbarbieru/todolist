@@ -1,0 +1,65 @@
+@import 'index.css';
+
+.ToDo {
+	margin-bottom: 5vw;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--main-app-color);
+	list-style: none;
+	padding: 0.5em;
+	font-size: 1em;
+	width: 95%;
+	border-bottom: 1px solid var(--main-bg-color);
+}
+.ToDo li {
+	max-width: 70%;
+	padding-left: 1vw;
+}
+.ToDo li::first-letter {
+	text-transform: capitalize;
+}
+
+.ToDo-form input {
+	width: 70%;
+	/* padding-right: 5em; */
+	border-radius: 5px;
+	font-family: inherit;
+	border: 1px solid var(--main-bg-color);
+	height: 30px;
+	font-size: 0.7em;
+}
+.ToDo-form input:active {
+	border: none;
+	border-radius: 5px;
+}
+.ToDo-form button {
+	/* margin-left: 2em; */
+	background-color: var(--btn-color);
+	border-radius: 5px;
+	cursor: pointer;
+	border: 2px solid var(--btn-color);
+	font-size: 0.7em;
+	padding: 5px 10px;
+}
+.ToDo-form button:hover {
+	cursor: pointer;
+	background-color: var(--btn-focus-color);
+}
+.ToDo-form button:active {
+	transform: scale(0.95);
+}
+
+.completed {
+	text-decoration: line-through;
+	opacity: 0.7;
+}
+.fas {
+	cursor: pointer;
+	color: var(--font-color);
+	font-size: 0.9em;
+	margin-left: 1.5em;
+}

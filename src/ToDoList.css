@@ -1,0 +1,18 @@
+@import 'index.css';
+
+.ToDoList {
+	margin: 5vh 2% 0 2%;
+	padding: 1em 0;
+	border-radius: 8px;
+	box-shadow: 0 0 6px 2px var(--main-app-color);
+}
+.ToDoList-desc {
+	margin: 1em auto;
+}
+
+@media only screen and (min-width: 600px) {
+	.ToDoList {
+		margin: 7vh 15vw 0 15vw;
+		padding: 5vh 5vw;
+	}
+}
